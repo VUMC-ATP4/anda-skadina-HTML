@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans pirmais HTML Dokuments</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+<h1> Mans <a href="https://www.tvnet.lv">virsraksts</a>  </h1>   
+
+
+
+
+<!-- P ir rindkopa. Pimrs un pēc. -->
+<p>Ārā spīd saule </p>
+
+
+
+
+
+
+<h3 class="zalsteksts"> Apakšvirsraksts pirmajai rindkopai  </h3>
+<p class="zalsteksts">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+
+
+
+
+<br>
+
+
+
+
+<h3> Apakšvirrakts otrajai rindai</h3>
+<p id="unikals">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <strong>Ut enim ad minim veniam, quis nostrud </strong>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+
+<a href="https://www.tvnet.lv/" target="_blank">Saite </a>uz tvnet
+<br>
+<h4>Bilde no interneta</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mute_swan_cygnet_pontoon_in_Prospect_Park_%2880364%29.jpg/1280px-Mute_swan_cygnet_pontoon_in_Prospect_Park_%2880364%29.jpg" height="200px" alt="Bilde ar pīlēm">
+
+<h4>Bilde no sistēmas</h4>
+<img src="Images/20220225_141407L.jpg" width="25%">
+
+<div id="specialramitis">
+
+<div class="ramitis left"
+<h4>Pirkuma saraksts</h4>
+<ul> 
+<li>
+    <a href="https://www.seb.lv/" target="blank">Kartupeļi</a>
+</li>
+<li>Āboli</li>
+<li>Sēnes</li>
+<li>Čipši</li>
+
+</ul>
+</div>
+
+
+<div class="ramitis right">
+<h5>Omletes recepte</h5>
+<ol>
+    <li>Iesist olas</li>
+    <li>Pievienot pienu</li>
+    <li>Visu sakult 3 min</li>
+    
+</ol>
+</div>
+</div>
+
+<input id="vecums">
+<br>
+<button id="poga">Spied mani!</button>
+<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+
+
+
+</body>
+
+<script>
+document.getElementById("poga").onclick =function() {
+    var vecums = document.getElementById("vecums").value;
+alert("Poga tika nospiesta")
+document.getElementById("lietotajavecums").innerText = vecums;
+};
+
+}
+
+</script>
+</html>

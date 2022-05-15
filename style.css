@@ -12,29 +12,19 @@ font-size:large;
 }
 
 
-.ramitis{
-border-style: double;
-border-color: coral;
-
-
-
-}
-
 
 #specialramitis{
-    border-style: dashed;
-    border-color: rgb(98, 80, 255);
-    margin: 20px;
-    padding: 20px;
+    margin: 150px;
+    padding: 50px;
     width: 50%;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 
 }
 
 
 ul li {
-font-style: italic;
+font-style: normal;
 
 
 }
@@ -52,10 +42,10 @@ background-color: cyan;
 
  }
  .left{
-background-color: darkgoldenrod;
+background-color: rgb(150, 149, 145);
 
  }
  .right{
 
-    background-color: darkred;
+    background-color: rgb(225, 209, 209);
  }
